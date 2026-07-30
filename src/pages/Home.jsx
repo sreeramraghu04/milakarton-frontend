@@ -51,8 +51,8 @@ export default function Home() {
       </Helmet>
 
       <section className="relative overflow-hidden bg-[#071d42] px-4 pb-28 pt-24 text-white sm:px-6 sm:py-28 lg:px-12">
-        <div className="absolute -right-40 -top-44 h-[34rem] w-[34rem] rounded-full bg-blue-500/30 blur-3xl" />
-        <div className="absolute -bottom-52 left-1/3 h-[28rem] w-[28rem] rounded-full bg-sky-400/20 blur-3xl" />
+        <div className="absolute -right-40 -top-44 h-136 w-136 rounded-full bg-blue-500/30 blur-3xl" />
+        <div className="absolute -bottom-52 left-1/3 h-112 w-md rounded-full bg-sky-400/20 blur-3xl" />
 
         <div className="relative mx-auto grid max-w-7xl items-center gap-14 lg:grid-cols-[1fr_420px] lg:gap-12">
           <div className="max-w-3xl">
@@ -84,13 +84,13 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="relative mx-auto w-full max-w-[360px] rounded-[2rem] border border-white/20 bg-white/10 p-3 shadow-2xl backdrop-blur sm:p-4">
+          <div className="relative mx-auto w-full max-w-90 rounded-4xl border border-white/20 bg-white/10 p-3 shadow-2xl backdrop-blur sm:p-4">
             <img
               src="/images/electronics-placeholder.svg"
               alt="Mila-Karton electronics catalogue"
               className="aspect-square w-full rounded-[1.4rem] object-cover"
             />
-            <div className="absolute -bottom-4 left-2 rounded-2xl border border-white/20 bg-white px-4 py-3 text-[#071d42] shadow-xl sm:-bottom-5 sm:-left-5 sm:px-5 sm:py-4">
+            <div className="absolute -bottom-8 left-2 rounded-2xl border border-white/20 bg-white px-4 py-3 text-[#071d42] shadow-xl sm:-bottom-5 sm:-left-5 sm:px-5 sm:py-4">
               <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-blue-600 sm:text-xs sm:tracking-[0.18em]">
                 Start simply
               </p>
@@ -176,7 +176,7 @@ export default function Home() {
       </section>
 
       <section className="px-4 py-16 sm:px-6 sm:py-20 lg:px-12">
-        <div className="mx-auto flex max-w-7xl flex-col items-start justify-between gap-7 rounded-[2rem] bg-sky-50 p-6 sm:p-8 md:flex-row md:items-center md:p-12">
+        <div className="mx-auto flex max-w-7xl flex-col items-start justify-between gap-7 rounded-4xl bg-sky-50 p-6 sm:p-8 md:flex-row md:items-center md:p-12">
           <div className="max-w-2xl">
             <p className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-blue-600 sm:text-sm sm:tracking-[0.2em]">
               <Zap size={16} /> Keep it simple
