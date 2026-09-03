@@ -222,7 +222,7 @@ export default function Checkout() {
                 {["Standard Delivery", "Express Delivery"].map((option) => (
                   <label
                     key={option}
-                    className="flex cursor-pointer items-center gap-3 rounded-xl border border-slate-200 p-4 transition has-[:checked]:border-blue-500 has-[:checked]:bg-blue-50"
+                    className="flex cursor-pointer items-center gap-3 rounded-xl border border-slate-200 p-4 transition has-checked:border-blue-500 has-checked:bg-blue-50"
                   >
                     <input
                       type="radio"
@@ -243,7 +243,7 @@ export default function Checkout() {
                 {["Online Payment", "Cash On Delivery"].map((option) => (
                   <label
                     key={option}
-                    className="flex cursor-pointer items-center gap-3 rounded-xl border border-slate-200 p-4 transition has-[:checked]:border-blue-500 has-[:checked]:bg-blue-50"
+                    className="flex cursor-pointer items-center gap-3 rounded-xl border border-slate-200 p-4 transition has-checked:border-blue-500 has-checked:bg-blue-50"
                   >
                     <input
                       type="radio"

@@ -96,7 +96,7 @@ export default function Contact() {
         </div>
         <form
           onSubmit={handleSubmit}
-          className="rounded-[2rem] border border-slate-200 bg-white p-6 shadow-sm md:p-10"
+          className="rounded-4xl border border-slate-200 bg-white p-6 shadow-sm md:p-10"
         >
           <h2 className="text-2xl font-semibold">Send an enquiry</h2>
           <p className="mt-2 text-slate-600">
